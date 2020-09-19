@@ -1,13 +1,13 @@
-package com.example;
+package com.haginbros.goblinmail;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class GoblinMailPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(GoblinMailPlugin.class);
 		RuneLite.main(args);
 	}
 }
